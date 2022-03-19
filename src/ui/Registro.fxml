@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="495.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="490.0" fitWidth="460.0" layoutX="-1.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Imágenes/torre_peque.jpn.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="10.0" layoutY="180.0" prefHeight="6.0" prefWidth="221.0" text="NOMBRE DEL ESTUDIANTE:" textFill="#fcfcfc">
+         <font>
+            <Font name="Bookman Old Style" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="43.0" fitWidth="209.0" layoutX="10.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Imágenes/Logo-Universidad-ICESI.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="registrarBT" layoutX="55.0" layoutY="367.0" mnemonicParsing="false" onAction="#registrar" prefHeight="33.0" prefWidth="116.0" style="-fx-background-color: WHITE;" text="REGISTRAR" />
+      <TextField fx:id="nameStudentTF" layoutX="14.0" layoutY="205.0" />
+      <Label layoutX="10.0" layoutY="240.0" prefHeight="6.0" prefWidth="221.0" text="IDENTIFICACIÓN:" textFill="#fcfcfc">
+         <font>
+            <Font name="Bookman Old Style" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idStudentTF" layoutX="14.0" layoutY="268.0" />
+   </children>
+</AnchorPane>

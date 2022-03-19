@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane fx:id="mainPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="468.0" prefWidth="372.0">
+         <children>
+            <ImageView fitHeight="468.0" fitWidth="371.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/LOGO.jpg" />
+               </image>
+            </ImageView>
+            <PasswordField fx:id="ccPW" layoutX="13.0" layoutY="223.0" prefHeight="35.0" prefWidth="179.0" />
+            <Label layoutX="11.0" layoutY="200.0" text="Igrense su numero de cedula" textFill="#fffdfd">
+               <font>
+                  <Font name="Bookman Old Style" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="51.0" fitWidth="185.0" layoutX="11.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Imágenes/Logo-Universidad-ICESI.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="ingresarBT" layoutX="64.0" layoutY="277.0" mnemonicParsing="false" onAction="#ingresar" opacity="0.69" prefHeight="35.0" prefWidth="79.0" text="Ingresar" textFill="#2200ff" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
